@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InSports - Professional Sports Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-icon">🏆</span>
+            <span>InSports</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="profiles.html">Profiles</a></li>
+                <li><a href="competitions.html">Competitions</a></li>
+                <li><a href="brand-collaborations.html">Brand Collabs</a></li>
+            </ul>
+        </nav>
+        <div class="search-login">
+            <div class="search">
+                <input type="text" placeholder="Search coaches, players...">
+            </div>
+            <button class="login-btn">Sign In</button>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <h1>Connect with Elite Sports Professionals</h1>
+        <p>InSports brings together world-class coaches and athletes on one professional platform. Find the perfect coach, track athlete performances, and explore collaboration opportunities.</p>
+        <div class="hero-buttons">
+            <button class="hero-btn btn-primary">Find a Coach</button>
+            <button class="hero-btn btn-secondary">Create Your Profile</button>
+        </div>
+    </section>
+    
+    <section class="categories" id="sports">
+        <h2 class="section-title">Explore Sports Categories</h2>
+        <p class="section-subtitle">Browse through our diverse range of sports and find the perfect coach for your needs</p>
+        
+        <div class="sports-grid">
+            <div class="sport-card">
+                <div class="sport-img">🏃</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Athletics</h3>
+                    <div class="sport-stats">48 Coaches • 124 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">🏏</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Cricket</h3>
+                    <div class="sport-stats">67 Coaches • 215 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">⚽</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Football</h3>
+                    <div class="sport-stats">92 Coaches • 356 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">🏀</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Basketball</h3>
+                    <div class="sport-stats">65 Coaches • 183 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">🎾</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Tennis</h3>
+                    <div class="sport-stats">51 Coaches • 145 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">🏊</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Swimming</h3>
+                    <div class="sport-stats">42 Coaches • 128 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">🏄</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Surfing</h3>
+                    <div class="sport-stats">28 Coaches • 74 Athletes</div>
+                </div>
+            </div>
+            
+            <div class="sport-card">
+                <div class="sport-img">🥊</div>
+                <div class="sport-details">
+                    <h3 class="sport-title">Boxing</h3>
+                    <div class="sport-stats">35 Coaches • 92 Athletes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="profiles" id="profiles">
+        <h2 class="section-title">Top Professionals</h2>
+        <p class="section-subtitle">Discover world-class coaches and athletes in your favorite sports</p>
+        
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="athletes">Top Athletes</button>
+            <button class="tab-btn" data-tab="coaches">Top Coaches</button>
+        </div>
+        
+        <div class="tab-content active" id="athletes">
+            <div class="profiles-grid">
+                <!-- Usain Bolt Profile -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-img">
+                            <span>🏃</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Usain Bolt</h3>
+                            <p>Athletics • Sprinter</p>
+                            <div class="profile-rating">
+                                <span class="rating-value">9.9</span>
+                                <span class="rating-stars">★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <table class="stats-table">
+                            <tr>
+                                <td>100m World Record</td>
+                                <td>9.58 seconds</td>
+                            </tr>
+                            <tr>
+                                <td>200m World Record</td>
+                                <td>19.19 seconds</td>
+                            </tr>
+                            <tr>
+                                <td>Olympic Gold Medals</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>World Championship Golds</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>Career Win Rate</td>
+                                <td>95.8%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-footer">
+                        <span>Jamaica</span>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+                
+                <!-- Sachin Tendulkar Profile -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-img">
+                            <span>🏏</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Sachin Tendulkar</h3>
+                            <p>Cricket • Batsman</p>
+                            <div class="profile-rating">
+                                <span class="rating-value">9.7</span>
+                                <span class="rating-stars">★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <table class="stats-table">
+                            <tr>
+                                <td>Test Runs</td>
+                                <td>15,921</td>
+                            </tr>
+                            <tr>
+                                <td>ODI Runs</td>
+                                <td>18,426</td>
+                            </tr>
+                            <tr>
+                                <td>International Centuries</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Test Matches</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Career Average</td>
+                                <td>53.78</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-footer">
+                        <span>India</span>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+                
+                <!-- Serena Williams Profile -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-img">
+                            <span>🎾</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Serena Williams</h3>
+                            <p>Tennis • Professional</p>
+                            <div class="profile-rating">
+                                <span class="rating-value">9.8</span>
+                                <span class="rating-stars">★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <table class="stats-table">
+                            <tr>
+                                <td>Grand Slam Singles Titles</td>
+                                <td>23</td>
+                            </tr>
+                            <tr>
+                                <td>Total Singles Titles</td>
+                                <td>73</td>
+                            </tr>
+                            <tr>
+                                <td>Weeks as World No. 1</td>
+                                <td>319</td>
+                            </tr>
+                            <tr>
+                                <td>Olympic Gold Medals</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Career Win Rate</td>
+                                <td>85.1%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-footer">
+                        <span>United States</span>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="coaches">
+            <div class="profiles-grid">
+                <!-- Coach Profile 1 -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-img">
+                            <span>👨‍🏫</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Alex Johnson</h3>
+                            <p>Athletics • Sprint Coach</p>
+                            <div class="profile-rating">
+                                <span class="rating-value">9.5</span>
+                                <span class="rating-stars">★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <table class="stats-table">
+                            <tr>
+                                <td>Years Coaching</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Olympic Athletes Trained</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>Medal Winners</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>Specialization</td>
+                                <td>100m, 200m</td>
+                            </tr>
+                            <tr>
+                                <td>Client Success Rate</td>
+                                <td>92%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-footer">
+                        <span>United States</span>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+                
+                <!-- Coach Profile 2 -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-img">
+                            <span>👩‍🏫</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Rajiv Sharma</h3>
+                            <p>Cricket • Batting Coach</p>
+                            <div class="profile-rating">
+                                <span class="rating-value">9.3</span>
+                                <span class="rating-stars">★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <table class="stats-table">
+                            <tr>
+                                <td>Years Coaching</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>International Players Trained</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td>Team Championships</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>Specialization</td>
+                                <td>Batting Technique</td>
+                            </tr>
+                            <tr>
+                                <td>Batsmen Average Improvement</td>
+                                <td>31.5%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-footer">
+                        <span>India</span>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+                
+                <!-- Coach Profile 3 -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-img">
+                            <span>👨‍🏫</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Maria Rodriguez</h3>
+                            <p>Tennis • Performance Coach</p>
+                            <div class="profile-rating">
+                                <span class="rating-value">9.6</span>
+                                <span class="rating-stars">★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <table class="stats-table">
+                            <tr>
+                                <td>Years Coaching</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>Grand Slam Winners Coached</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Top 10 Players Coached</td>
+                                <td>8</td>
+                            </tr>                            
+                            <tr>
+                                <td>Specialization</td>
+                                <td>Mental Performance</td>
+                            </tr>
+                            <tr>
+                                <td>Player Ranking Improvement</td>
+                                <td>47.3%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="profile-footer">
+                        <span>Spain</span>
+                        <button class="connect-btn">Connect</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="competitions" id="competitions">
+        <h2 class="section-title">Upcoming Competitions</h2>
+        <p class="section-subtitle">Find opportunities to showcase your skills and compete with the best</p>
+        
+        <div class="competition-card">
+            <div class="competition-header">
+                <h3 class="competition-title">Global Tennis League</h3>
+                <span class="competition-date">May 15-30, 2025</span>
+            </div>
+            <div class="competition-body">
+                <div class="competition-info">
+                    <div class="competition-detail">
+                        <span class="detail-label">Location</span>
+                        <span class="detail-value">Paris, France</span>
+                    </div>
+                    <div class="competition-detail">
+                        <span class="detail-label">Category</span>
+                        <span class="detail-value">Professional</span>
+                    </div>
+                    <div class="competition-detail">
+                        <span class="detail-label">Prize Pool</span>
+                        <span class="detail-value">$2,000,000</span>
+                    </div>
+                    <div class="competition-detail">
+                        <span class="detail-label">Registration Deadline</span>
+                        <span class="detail-value">April 15, 2025</span>
+                    </div>
+                </div>
+                <p class="competition-description">
+                    Join the most prestigious tennis league featuring top players from around the world. The Global Tennis League offers competitive matches, global exposure, and the chance to build your professional reputation.
+                </p>
+                <div class="competition-actions">
+                    <span>124 Registered Players</span>
+                    <button class="action-btn action-primary">Register Now</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="competition-card">
+            <div class="competition-header">
+                <h3 class="competition-title">International Cricket Tournament</h3>
+                <span class="competition-date">June 5-25, 2025</span>
+            </div>
+            <div class="competition-body">
+                <div class="competition-info">
+                    <div class="competition-detail">
+                        <span class="detail-label">Location</span>
+                        <span class="detail-value">Mumbai, India</span>
+                    </div>
+                    <div class="competition-detail">
+                        <span class="detail-label">Category</span>
+                        <span class="detail-value">T20 Format</span>
+                    </div>
+                    <div class="competition-detail">
+                        <span class="detail-label">Prize Pool</span>
+                        <span class="detail-value">$1,500,000</span>
+                    </div>
+                    <div class="competition-detail">
+                        <span class="detail-label">Registration Deadline</span>
+                        <span class="detail-value">May 1, 2025</span>
+                    </div>
+                </div>
+                <p class="competition-description">
+                    The International Cricket Tournament brings together cricket talents from across the globe. Teams will compete in the fast-paced T20 format, offering exciting matches and career-defining opportunities.
+                </p>
+                <div class="competition-actions">
+                    <span>48 Registered Teams</span>
+                    <button class="action-btn action-primary">Register Team</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="brand-collaboration" id="brands">
+        <h2 class="section-title">Brand Collaborations</h2>
+        <p class="section-subtitle">Explore partnerships between athletes and leading brands</p>
+        
+        <div class="brand-cards">
+            <!-- Virat Kohli x Puma -->
+            <div class="brand-card">
+                <div class="brand-header">
+                    <div class="brand-logo">🏏</div>
+                    <div>
+                        <h3 class="brand-name">Virat Kohli x PUMA</h3>
+                        <p class="brand-category">Cricket • Apparel</p>
+                    </div>
+                </div>
+                <p class="brand-description">
+                    Cricketing sensation Virat Kohli's landmark deal with PUMA worth ₹110 crore has evolved into his own athleisure brand "One8". The partnership showcases Kohli's dynamic style and PUMA's athletic heritage.
+                </p>
+                <a href="brand-collaborations.html" class="collab-link">Learn More →</a>
+            </div>
+            
+            <!-- Serena Williams x Nike -->
+            <div class="brand-card">
+                <div class="brand-header">
+                    <div class="brand-logo">🎾</div>
+                    <div>
+                        <h3 class="brand-name">Serena Williams x Nike</h3>
+                        <p class="brand-category">Tennis • Apparel</p>
+                    </div>
+                </div>
+                <p class="brand-description">
+                    Tennis legend Serena Williams partners with Nike to create groundbreaking on-court fashion and the Serena Williams Design Crew, promoting diversity in design through an innovative apprenticeship program.
+                </p>
+                <a href="brand-collaborations.html" class="collab-link">Learn More →</a>
+            </div>
+            
+            <!-- Usain Bolt x Puma -->
+            <div class="brand-card">
+                <div class="brand-header">
+                    <div class="brand-logo">🏃</div>
+                    <div>
+                        <h3 class="brand-name">Usain Bolt x Puma</h3>
+                        <p class="brand-category">Athletics • Lifetime Deal</p>
+                    </div>
+                </div>
+                <p class="brand-description">
+                    Sprint legend Usain Bolt's iconic partnership with Puma has defined both his career and the brand's image in track and field, featuring signature spike designs and his legendary "Lightning Bolt" pose.
+                </p>
+                <a href="brand-collaborations.html" class="collab-link">Learn More →</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About InSports</h3>
+                <ul>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">For Athletes</a></li>
+                    <li><a href="#">For Coaches</a></li>
+                    <li><a href="#">For Brands</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                    <li><a href="#">Training Tips</a></li>
+                    <li><a href="#">Collaboration Guide</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Legal Notices</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 InSports. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
